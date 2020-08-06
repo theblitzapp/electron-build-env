@@ -19,7 +19,7 @@ function error(msg, cmd, args, opts, stderr, prev) {
   return err;
 }
 
-const possibleModuleNames = ['electron', 'electron-prebuilt', 'electron-prebuilt-compile'];
+const possibleModuleNames = ['electron', 'electron-nightly', 'electron-prebuilt', 'electron-prebuilt-compile'];
 
 function presolve(id) {
   var parent = module.parent;
